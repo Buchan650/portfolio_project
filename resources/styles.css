@@ -47,27 +47,59 @@ nav{
     align-items: center;
 }
 
+nav a{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav i{
+    font-size: 1.5rem;
+}
+
 #middle-name{
     color: gold;
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 } 
-#navlinks span a{
-    margin: 1rem;
-    text-decoration: none;
+.dropbtn {
+    background-color: rgb(0, 0, 0);
     color: rgb(161, 161, 161);
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    height:4rem;
+    cursor: pointer;
 }
-#navlinks span a:visited{
-    color: rgb(161, 161, 161);
-}
-
-#navlinks span a:hover{
+.dropbtn:hover, .dropbtn:focus {
     color: gold;
 }
-
-#navlinks span a:active{
-    color: rgb(255, 255, 255);
+.dropbtn::after{
+    color: rgb(161, 161, 161);
 }
 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gold;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+}
+
+.show {display:block;}
 
 /*Introduction*/
 #intro{
