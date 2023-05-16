@@ -155,7 +155,7 @@ i{
 #projects{
     width: 80%;
     text-align: center;
-    margin: 8rem auto;
+    margin: 8rem auto 2rem;
     scroll-margin-top: 8rem;
 }
 #proj-container{
@@ -196,4 +196,23 @@ i{
     margin: 8rem;
     text-align: center;
     scroll-margin-top: 8rem;
+}
+
+#contact i{
+    font-size: 1rem;
+    padding: 0;
+    margin:0;
+}
+
+/*footer*/
+footer{
+    background-color: gold;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+    padding: auto 0;
 }
