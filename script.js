@@ -7,17 +7,27 @@ function dropMenu() {
   // Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
+      let dropdowns = document.getElementsByClassName("dropdown-content");
+      let i;
       for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
+        let openDropdown = dropdowns[i];
         if (openDropdown.classList.contains('show')) {
           openDropdown.classList.remove('show');
         }
       }
     }
   }
-  function lightMode() {
-    var element = document.body;
-    element.classList.toggle("light-mode");
-  }
+
+//Light mode toggle
+const toggle = document.getElementById('toggle');
+const body = document.body;
+
+toggle.addEventListener('input', e => {
+    const isChecked = e.target.checked;
+
+    if (isChecked) {
+        body.classList.add('light-theme');
+    } else {
+        body.classList.remove('light-theme');
+    }
+});
