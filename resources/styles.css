@@ -55,6 +55,11 @@ body.light-theme #navbarlinks a:active{
     color: goldenrod;
 }
 
+body.light-theme .dropbtn {
+    background-color: white;
+    color: black;
+}
+
 h1, h2, h3{
     font-family: 'Roboto', sans-serif;
 }
