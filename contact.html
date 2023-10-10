@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breon's Portfolio Page</title>
+        <link rel="icon" href="./resources/avatar.png">
+        <link href="./resources/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3317c7907b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><h1>Breon <span id="last-name">Curry</span></h1></a>
+                <div id="navside">
+                    <div id="navbarlinks">
+                        <ul>
+                            <li><a href="index.html">About me</a></li>
+                            <li><a href="skills.html">Skills</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html" class="selected">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropMenu()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">About me</a>
+                        <a href="skills.html">Skills</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>If you have any questions, comments(good or bad) about my content <br/>
+                    or just want to get in contact with me, please feel free to contact<br/> 
+                    me via email, through my GitHub or fill out the form below.</p>
+                <p id="contact-info"><i class="fa-sharp fa-solid fa-envelope"></i>Email:<a href="mailto: Breon.curry650@gmail.com">Breon.curry650@gmail.com</a><br>
+                    <i class="fa-brands fa-github"></i>GitHub:<a href="https://github.com/Buchan650" target="_blank">https://github.com/Buchan650</a><br>
+                    <i class="fa-solid fa-phone"></i>Phone Number: <a href="tel:+819050007190">090-5000-7190<br></a></p>
+                
+            </section>
+            <section id="form">
+                <form>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" value="Name" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input id="email" value="Email Address" required>
+                    <br>
+                    <label for="question">Questions</label>
+                    <br>
+                    <textarea type="text" id="question" rows="5" cols="30">Questions</textarea>
+                    <br>
+                    <input class="button" type="submit" value="Submit">
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p><a href="contact.html">Please contact me for more info</a></p>
+        <script src="script.js" async></script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breon's Portfolio Page</title>
+        <link rel="icon" href="./resources/avatar.png">
+        <link href="./resources/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3317c7907b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><h1>Breon <span id="last-name">Curry</span></h1></a>
+                <div id="navside">
+                    <div id="navbarlinks">
+                        <ul>
+                            <li><a href="index.html">About me</a></li>
+                            <li><a href="skills.html" class="selected">Skills</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropMenu()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">About me</a>
+                        <a href="skills.html">Skills</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>Through Codecademy, I am currently working towards my certification to 
+                    become a front-end engineer. With the help of Codecademy I have become 
+                    proficient in the tools necessary to become an effective web designer.
+                </p>
+                <div class="container">
+                    <div class="languages">
+                        <div class="language-container">
+                            <i class="fa-brands fa-html5"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-square-js"></i>
+                            <h3>JavaScript</h3>
+                        </div >
+                        <div class="language-container">
+                        <i class="fab fa-php"></i>
+                            <h3>PHP</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-git"></i>
+                            <h3>Git</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-github"></i>
+                            <h3>GitHub</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-node"></i>
+                            <h3>Node</h3>
+                        </div>
+                        <div class="language-container">
+                            <i class="fa-brands fa-react"></i>
+                            <h3>React</h3>  
+                        </div>
+                    </div>
+                    <div>
+                      <img class='certificate' src="resources/images/www.codecademy.com_profiles_Buchan650_certificates_5cadfefe5f1de806e9704577.png" alt='Codecademy HTML, CSS Certificate'/> 
+                      <img class='certificate' src="resources/images/php.png" alt='Codecademy PHP Certificate'/> 
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="dtp">
+                        <div class="dtp-container">
+                            <img class="dtp-logo" src="resources/images/photoshop_illustrator_cs6_icons.jpg" alt='Photoshop logo'/>
+                            <h3>DTP (Photoshop & Illustrator)</h3>
+                        </div>
+                    </div>
+                    <div>
+                      <img class="certificate2" src="resources/images/ps.png" alt='Skillshare Photoshop Certificate'/> 
+                      <img class="certificate2" src="resources/images/ill.png" alt='Skillshare Illustrator Certificate'/> 
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <p><a href="contact.html">Please contact me for more info</a></p>
+        </footer>
+        <script src="script.js" async></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breon's Portfolio Page</title>
+        <link rel="icon" href="./resources/avatar.png">
+        <link href="./resources/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3317c7907b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index_jp.html"><h1>カリー <span id="last-name">ブリオン</span></h1></a>
+                <div id="navside">
+                    <div id="navbarlinks">
+                        <ul>
+                            <li><a href="index_jp.html" >自己紹介</a></li>
+                            <li><a href="skills_jp.html">スキル</a></li>
+                            <li><a href="portfolio_jp.html">ポートフォリオ</a></li>
+                            <li><a href="contact_jp.html" class="selected">連絡先</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropMenu()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="index_jp.html">自己紹介</a>
+                        <a href="skills_jp.html">スキル</a>
+                        <a href="portfolio_jp.html">ポートフォリオ</a>
+                        <a href="contact_jp.html">連絡先</a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>連絡先</h2>
+                <p id="form-info">私のコンテンツについて質問、コメント
+                    （良いコメントでも悪いコメントでも）がある場合、<br/>または単に私と連絡を取りたい際は、メール, GitHubまたは下のフォームからお気軽にご連絡ください。</p>
+                <p id="contact_info"><i class="fa-sharp fa-solid fa-envelope"></i>メールアドレス:<a href="mailto: Breon.curry650@gmail.com">Breon.curry650@gmail.com</a><br>
+                    <i class="fa-brands fa-github"></i>GitHub:<a href="https://github.com/Buchan650" target="_blank">https://github.com/Buchan650</a><br>
+                    <i class="fa-solid fa-phone"></i>電話番号: <a href="tel:+819050007190">090-5000-7190<br></a></p>
+                
+            </section>
+            <section id="form">
+                <form>
+                    <label for="name">お名前</label>
+                    <br>
+                    <input type="text" id="name" value="お名前" required>
+                    <br>
+                    <label for="email">メールアドレス</label>
+                    <br>
+                    <input id="email" value="メールアドレス" required>
+                    <br>
+                    <label for="question">お問い合わせ</label>
+                    <br>
+                    <textarea type="text" id="question" rows="5" cols="30">お問い合わせ</textarea>
+                    <br>
+                    <input class="button" type="submit" value="送信">
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p><a href="contact.html">Please contact me for more info</a></p>
+        <script src="script.js" async></script>
+    </body>
+</html>

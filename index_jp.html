@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Breon's Portfolio Page</title>
+        <link rel="icon" href="./resources/avatar.png">
+        <link href="./resources/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3317c7907b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>カリー <span id="last-name">ブリオン</span><a href="index.html"><img src="./resources/images/American-flag.png"/></a></h1>
+                <div id="navside">
+                    <div id="navbarlinks">
+                        <ul>
+                            <li><a href="index_jp.html" class="selected">自己紹介</a></li>
+                            <li><a href="skills_jp.html">スキル</a></li>
+                            <li><a href="portfolio_jp.html">ポートフォリオ</a></li>
+                            <li><a href="contact_jp.html">連絡先</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropMenu()" class="dropbtn">Menu</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="index_jp.html">自己紹介</a>
+                        <a href="skills_jp.html">スキル</a>
+                        <a href="portfolio_jp.html">ポートフォリオ</a>
+                        <a href="contact_jp.html">連絡先</a>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="intro">
+                <article id="about-me">
+                    <div class="text-container">
+                        <h2>自己紹介</h2>
+                        <p>皆さん、こんにちは。私の名前はブリオン・ダンテ・カリー、39歳で、
+                            日本の岐阜に住むウェブデザイナー志望者です。 私は弘前大学の交換留学生として1年、英語教師
+                            として15年の合わせて16年近く日本に住んでいます。私は昔からコンピュータが大好きで、2023年
+                            3月の時点で、転職を決意し、フロントエンドエンジニアになるために必要なスキルを学び始めました。
+                            私の趣味はブラジリアン柔術、ウェイトトレーニング、ランニング、読書、そしてもちろんコーディングです。</p>
+                    </div>
+                    <img src="./resources/images/49674108_10103468924449637_8264381388132712448_n.jpg">
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p><a href="contact.html">Please contact me for more info</a></p>
+        </footer>
+        <script src="script.js" async></script>
+    </body>
+</html>
