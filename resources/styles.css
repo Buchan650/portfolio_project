@@ -554,7 +554,7 @@ nav ul li a.selected{
 }
 
 #contact a:hover{
-    color: rgb(161, 161, 161);
+    color: rgb(41, 41, 41);
 }
 
 #contact a:visited{
@@ -563,7 +563,7 @@ nav ul li a.selected{
 
 @media only screen and (max-width : 820px){
     #contact{
-        margin: 5rem 1rem 0 1rem;
+        margin: 6rem 1rem 0 1rem;
     }
     #contact i{
         font-size: .8rem;
