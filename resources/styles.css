@@ -295,6 +295,23 @@ nav ul li a.selected{
     color: rgb(0, 0, 0);
   }
 
+  .kentei-certificate{
+    width: 90%;
+    height: auto;
+  }
+
+  .kentei-certificate img{
+    width: 95%;
+    height: 95%;
+    padding: 0;
+    margin: 1rem;
+  }
+
+  .kentei-certificate img:hover{
+    border: 2px solid gold;
+    z-index: 1;
+  }
+
   .certificate-container{
     display: flex;
     flex-wrap: wrap;
@@ -341,6 +358,10 @@ nav ul li a.selected{
     width: 75%;
     height: auto;
     margin:  1rem auto;
+  }
+
+  .certificate2:hover{
+    border: 2px solid gold;
   }
   
   @media only screen and (max-width : 820px){
