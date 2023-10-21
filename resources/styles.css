@@ -188,8 +188,6 @@ nav ul li a.selected{
 {
     .dropbtn {
         font-size: 1rem;
-        padding-left: 0;
-        padding-right: 1rem;
     }
 }
 
@@ -215,6 +213,7 @@ nav ul li a.selected{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0;
 }
 
 .dropdown-content a {
@@ -222,6 +221,7 @@ nav ul li a.selected{
     padding: .75rem 1rem;
     text-decoration: none;
     display: block;
+    font-size: .8rem;
 }
 
 .dropdown-content a:hover {background-color: #ddd;
@@ -377,18 +377,18 @@ nav ul li a.selected{
 #projects{
     width: 80%;
     text-align: center;
-    margin: 10rem auto 2rem;
+    margin: 8rem auto 2rem;
   }
   
   #proj-container{
     display:block;
     width: 90%;
     height: auto;
-    margin: 4rem auto;
+    margin: 1rem auto;
   }
 
   #proj-container h2{
-    margin-top: 3rem;
+    margin-top: 1rem;
     color: #000000;
   }
   
@@ -454,7 +454,11 @@ nav ul li a.selected{
   #website-images{
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 1rem;
+  }
+
+  #website-images h2{
+    margin: 0;
   }
   
   #photoshop-images{
